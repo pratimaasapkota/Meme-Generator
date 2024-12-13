@@ -42,3 +42,17 @@ button {
     border-radius: 8px;
     cursor: pointer;
 }
+
+button:active {
+    background-color: #057c68;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+
+img:not([src]) {
+    display: none;
+}
