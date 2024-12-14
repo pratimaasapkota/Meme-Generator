@@ -13,3 +13,7 @@ function getMeme() {
       authorOutput.innerText = `Meme by: ${author}`
     })
 }
+getMeme()
+generateBtn.addEventListener('click', () => {
+  getMeme()
+})
