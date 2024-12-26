@@ -53,3 +53,6 @@ img {
     margin: 8px 0;
 }
 
+img:not([src]) {
+    display: none;
+}
