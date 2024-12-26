@@ -12,8 +12,4 @@ function getMeme() {
       memeImage.src = url
       authorOutput.innerText = `Meme by: ${author}`
     })
-}
-getMeme()
-generateBtn.addEventListener('click', () => {
-  getMeme()
-})
+
