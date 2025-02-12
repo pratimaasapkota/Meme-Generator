@@ -14,5 +14,7 @@ function getMeme() {
     })
 
   }
-  
+  getMeme()
+  generateBtn.addEventListener('click', () => {
+    getMeme()
   })
